@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
 
 app.get('/taskinfo', function(req, res) {
     res.send({
-        "repeat": 5,
+        "repeat": 100,
         "openPice": 5,
         "trackURLTimeInterval": 5.0,
     })
